@@ -1,0 +1,11 @@
+name: PatPatTameFriend
+version: '1.0'
+main: ru.nikita51.patpat_tame_friend.PatPatTameFriend
+api-version: '1.21'
+depend:
+  - PatPatPlugin
+commands:
+  pat:
+    description: Pat entity
+    usage: /pat <entity>
+    permission: patpat.command.pat
